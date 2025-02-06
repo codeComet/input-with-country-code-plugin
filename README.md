@@ -1,1 +1,4 @@
-# input-with-country-code-plugin
+### input-with-country-code-plugin
+
+### Screenshot
+![screenshot](./Screenshot.png)

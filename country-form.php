@@ -28,7 +28,7 @@ function phone_number_form_shortcode() {
 				<input type="text" id="phone-number" name="phone_number" required pattern="\+?[0-9]+" title="Only numbers and '+' are allowed.">
 			</div>
         
-        <button type="submit" id="country-form-submit-button">Anmäla</button>
+        <button type="submit" id="country-form-submit-button">Submit</button>
         <div id="loading-message" style="display: none;">Submitting...</div>
         <div id="response-message"></div>
     </form>
