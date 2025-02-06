@@ -1,0 +1,51 @@
+.country-listform-container {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+#country-code {
+    flex-basis: 23%;
+    border-radius: 8px 0px 0px 08px;
+    padding: 5px 0px 5px 5px;
+}
+
+#phone-number {
+    flex-grow: 1;
+    border-radius: 0 8px 8px 0px;
+}
+
+#country-code,
+#phone-number {
+    background: linear-gradient(273.22deg, #181a1c00 1.99%, #2d2d2d 99.67%);
+    border: 1px solid #ffffff9e;
+    color: #fff;
+    font-size: 16px;
+    line-height: 19.2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+#country-code:focus,
+#phone-number:focus {
+    outline: none;
+}
+
+#country-code {
+    border-right: none;
+}
+
+#country-form-submit-button {
+    width: 100%;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 600px) {
+    #country-code {
+        flex-basis: 50%;
+    }
+
+    #country-code,
+    #phone-number {
+        font-size: 14px;
+    }
+}
